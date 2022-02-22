@@ -1,3 +1,26 @@
+body
+{
+    background-color: pink;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1
+{
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 0 0px 0 20px;
+    color: rgb(115, 115, 180);
+}
+
+h3
+{
+    text-align: justify;
+}
+
+div
+{
+    color: rgb(27, 76, 92);
+}
+
 #menuBG
 {
     width: 400px;
@@ -7,7 +30,7 @@
 
 #frmMenu
 {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
@@ -20,6 +43,13 @@
 }
 
 .menuLeft
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.menuCenter
 {
     width: 200px;
     height: 200px;
@@ -54,4 +84,14 @@
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
+    border: solid skyblue;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+#btnOrder:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
